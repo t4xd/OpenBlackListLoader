@@ -1,0 +1,11 @@
+﻿name: OpenBlackListLoader
+main: mc.ta3.obll.OBLLoader
+version: 1.0.0
+author: "たみ"
+load: POSTWORLD
+commands:
+  obl:
+    description: "OpenBlackListLoader Command"
+    usage: /obl
+    permission: obl.cmd
+    permission-message: Unknown command. Type "/help" for help.
